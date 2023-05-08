@@ -1,0 +1,9 @@
+/* styles.css */
+
+.odd-numbered {
+    background-color: rgb(255,0,0);
+}
+
+.odd-numbered.larger-on {
+    font-size: 24px;
+}

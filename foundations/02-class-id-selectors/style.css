@@ -7,3 +7,14 @@
 .odd-numbered.larger-on {
     font-size: 24px;
 }
+
+#big-text {
+    color: rgb(0,0,255);
+    font-size: 36px;
+}
+
+#bold-text {
+    background-color: rgb(0,255,0);
+    font-weight: 900;
+    font-size: 24px;
+}

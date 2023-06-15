@@ -4,11 +4,23 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
 }
 
 
 .main-section {
   display: flex;
+}
+
+.main-cards {
+  display: flex;
+  align-content: space-between;
+  flex: 0 1 80%;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 45px;
+
 }
 
 .header {
@@ -27,10 +39,14 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 20%;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  flex: 0 1 300px;
 }
